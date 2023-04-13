@@ -14,10 +14,14 @@ A: I was bored and this sounded like a fun thing to do for a couple of hours.
     What if the Roman Empire never fell?  
 Wanna know answer these questions?  
 Well sadly, we'll never know. But now with the power of generative AI, we can explore some possibilities based on an 
-alternate fact.  
+alternate fact.   
+
+### Demo
+Try the online demo [here](https://whatif2.vpanjeta.uk/)
 
 ---
-<img src="assets/run.gif" alt="Alt_History">  
+<img src="assets/run.gif" alt="Alt_History">   
+
 ---
 
 **What If?** is a service that allows users to explore alternate history based on an alternate fact. This service prompts 
@@ -44,4 +48,4 @@ nano Dockerfile  # Edit the Dockerfile to include your OpenAI API key
 docker build -t streamlit .  # Build the docker image
 docker run -p 8501:8501 streamlit  # Run the docker image
 ```
-Browse to http://localhost:8501 to use "What If?".
+Browse to http://0.0.0.0:8501 to use "What If?".
