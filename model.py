@@ -20,7 +20,7 @@ class HistoryModel:
             temperature = 0.05  # Precise
         self.chat = ChatOpenAI(
             temperature=temperature,
-            model_name="gpt-3.5-turbo",
+            model_name="gpt-4",
             max_tokens=1000,
             verbose=False,
             streaming=stream, callback_manager=CallbackManager([StreamingStdOutCallbackHandler()])

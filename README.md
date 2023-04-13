@@ -38,7 +38,7 @@ To use What If?, simply input a fact or event that could have happened different
 
 ## Installation
 What-If requires docker to run the service.  
-What-If uses OpenAI's ChatGPT model (gpt-3.5-turbo) to generate the alternate histories.  
+What-If uses OpenAI's GPT-4 model to generate the alternate histories (gpt-4 API access requires you to sign up for a waitlist [here](https://openai.com/waitlist/gpt-4-api).  
 To install What If?, simply clone the repository and run the following command:
 ```bash
 git clone https://github.com/VPanjeta/What-If.git  # Clone the repository
